@@ -22,6 +22,7 @@
 		9BC2F55122D911CD009837DB /* customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F55022D911CD009837DB /* customer.swift */; };
 		9BC2F55522D91DFA009837DB /* billlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F55422D91DFA009837DB /* billlistTableViewController.swift */; };
 		9BC2F55722D92D49009837DB /* Tom_and_Jerry_PNG_Clipart_Picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2F55622D92D49009837DB /* Tom_and_Jerry_PNG_Clipart_Picture.png */; };
+		9BC2F55922D93244009837DB /* customerlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F55822D93244009837DB /* customerlistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		9BC2F55022D911CD009837DB /* customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer.swift; sourceTree = "<group>"; };
 		9BC2F55422D91DFA009837DB /* billlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = billlistTableViewController.swift; path = ../../../billlistTableViewController.swift; sourceTree = "<group>"; };
 		9BC2F55622D92D49009837DB /* Tom_and_Jerry_PNG_Clipart_Picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tom_and_Jerry_PNG_Clipart_Picture.png; path = ../../../../Downloads/Tom_and_Jerry_PNG_Clipart_Picture.png; sourceTree = "<group>"; };
+		9BC2F55822D93244009837DB /* customerlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customerlistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				9BC2F52022D90CE0009837DB /* LaunchScreen.storyboard */,
 				9BC2F52322D90CE0009837DB /* Info.plist */,
 				9BC2F55422D91DFA009837DB /* billlistTableViewController.swift */,
+				9BC2F55822D93244009837DB /* customerlistViewController.swift */,
 			);
 			path = C0754449_MidTerm_MAD3115S2019;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				9BC2F55522D91DFA009837DB /* billlistTableViewController.swift in Sources */,
 				9BC2F55122D911CD009837DB /* customer.swift in Sources */,
 				9BC2F51822D90CDF009837DB /* AppDelegate.swift in Sources */,
+				9BC2F55922D93244009837DB /* customerlistViewController.swift in Sources */,
 				9BC2F54F22D911C1009837DB /* mobile.swift in Sources */,
 				9BC2F54722D91178009837DB /* user.swift in Sources */,
 				9BC2F54B22D911AD009837DB /* hydro.swift in Sources */,
