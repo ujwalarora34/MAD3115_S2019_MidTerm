@@ -10,11 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var txt_emailID: UITextField!
     
-    @IBOutlet weak var txt_password: UITextField!
-    
-    @IBOutlet weak var switch_rememberMe: UISwitch!
     
     var UsersDict = [UsersStruct]()
     
@@ -33,10 +29,6 @@ class ViewController: UIViewController {
         
     }
     
-    
-    
-    
-    @IBAction func btn_loginclick(_ sender: Any)
     {
         
         if let email = txt_emailID.text{
