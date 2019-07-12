@@ -23,6 +23,7 @@
 		9BC2F55522D91DFA009837DB /* billlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F55422D91DFA009837DB /* billlistTableViewController.swift */; };
 		9BC2F55722D92D49009837DB /* Tom_and_Jerry_PNG_Clipart_Picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2F55622D92D49009837DB /* Tom_and_Jerry_PNG_Clipart_Picture.png */; };
 		9BC2F55922D93244009837DB /* customerlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F55822D93244009837DB /* customerlistViewController.swift */; };
+		9BC2F55D22D938AF009837DB /* main user.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2F55C22D938AF009837DB /* main user.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		9BC2F55422D91DFA009837DB /* billlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = billlistTableViewController.swift; path = ../../../billlistTableViewController.swift; sourceTree = "<group>"; };
 		9BC2F55622D92D49009837DB /* Tom_and_Jerry_PNG_Clipart_Picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tom_and_Jerry_PNG_Clipart_Picture.png; path = ../../../../Downloads/Tom_and_Jerry_PNG_Clipart_Picture.png; sourceTree = "<group>"; };
 		9BC2F55822D93244009837DB /* customerlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customerlistViewController.swift; sourceTree = "<group>"; };
+		9BC2F55C22D938AF009837DB /* main user.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "main user.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				9BC2F52322D90CE0009837DB /* Info.plist */,
 				9BC2F55422D91DFA009837DB /* billlistTableViewController.swift */,
 				9BC2F55822D93244009837DB /* customerlistViewController.swift */,
+				9BC2F55C22D938AF009837DB /* main user.plist */,
 			);
 			path = C0754449_MidTerm_MAD3115S2019;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				9BC2F52222D90CE0009837DB /* LaunchScreen.storyboard in Resources */,
 				9BC2F51F22D90CE0009837DB /* Assets.xcassets in Resources */,
+				9BC2F55D22D938AF009837DB /* main user.plist in Resources */,
 				9BC2F55722D92D49009837DB /* Tom_and_Jerry_PNG_Clipart_Picture.png in Resources */,
 				9BC2F51D22D90CDF009837DB /* Main.storyboard in Resources */,
 			);
