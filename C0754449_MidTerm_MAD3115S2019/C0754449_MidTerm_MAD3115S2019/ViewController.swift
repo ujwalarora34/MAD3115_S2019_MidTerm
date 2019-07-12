@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class LoginViewController: UIViewController
+{
+    
     @IBOutlet weak var txt_emailID: UITextField!
     
     @IBOutlet weak var txt_password: UITextField!
@@ -40,39 +41,39 @@ class ViewController: UIViewController {
     {
         
         if let email = txt_emailID.text{
-        if !email.isEmpty{
+            if !email.isEmpty{
                 
-        if email.isVAlidEmail(){
-        if let password = txt_password.text{
-        if !password.isEmpty{
-        if password.sizeCheck(){
+                if email.isVAlidEmail(){
+                    if let password = txt_password.text{
+                        if !password.isEmpty{
+                            if password.sizeCheck(){
                                 
-        if  checkEmailPassword(email: email, password: password) {
-            setRememberMe()
+                                if  checkEmailPassword(email: email, password: password) {
+                                    setRememberMe()
                                     
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let dashboardVC = storyboard.instantiateViewController(withIdentifier: "customerListVC") as! CustomerListViewController
+                                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                                    let dashboardVC = storyboard.instantiateViewController(withIdentifier: "customerListVC") as! CustomerListViewController
                                     
-        self.navigationController?.pushViewController(dashboardVC, animated: true)
+                                    self.navigationController?.pushViewController(dashboardVC, animated: true)
                                     
                                     
-        }else{
-        showAlerBox(msg: "You have enter wrong credentials")
-        }
+                                }else{
+                                    showAlerBox(msg: "You have enter wrong credentials")
+                                }
                                 
-        }else{
-        showAlerBox(msg: "Invalid password size")
-        }
+                            }else{
+                                showAlerBox(msg: "Invalid password size")
+                            }
                             
-        }else{
-        showAlerBox(msg: "Please enter password")
-        }
-            }
+                        }else{
+                            showAlerBox(msg: "Please enter password")
+                        }
+                    }
                 }
-        else{
+                else{
                     showAlerBox(msg: "Please enter valid email")
                 }
-        }else{
+            }else{
                 showAlerBox(msg: "Please enter useremail")
             }
         }
@@ -80,7 +81,7 @@ class ViewController: UIViewController {
     }
     
     func showAlerBox(msg : String)  {
-    let alertController = UIAlertController(title: "CustomerBillApp", message:
+        let alertController = UIAlertController(title: "CustomerBillApp", message:
             msg, preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
         
