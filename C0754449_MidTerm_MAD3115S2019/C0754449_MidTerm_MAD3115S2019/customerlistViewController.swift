@@ -96,7 +96,7 @@ class CustomerListViewController: UIViewController,UITableViewDelegate , UITable
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "usersCell")  as! UITableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "customerCell")  as! CustomerTableCellTableViewCell
         
         cell.textLabel?.text = self.customerArray[indexPath.row].fullName
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.tapBtnAction(_:)))
