@@ -58,7 +58,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1132" y="82"/>
+            <point key="canvasLocation" x="-1351" y="-115"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GP4-Kq-CPG">
@@ -73,7 +73,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Customer" id="jLs-ce-afa">
-                                        <barButtonItem key="rightBarButtonItem" title="Logout" id="Qqq-hA-zSg"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Logout" id="Qqq-hA-zSg">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="Z0v-Is-J8G"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -87,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GvZ-rm-1Ho" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-352" y="83"/>
+            <point key="canvasLocation" x="-388" y="-115"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="N7B-9t-dus">
@@ -169,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nia-gh-xEQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="413.04347826086962" y="81.696428571428569"/>
+            <point key="canvasLocation" x="413" y="-115"/>
         </scene>
     </scenes>
 </document>
