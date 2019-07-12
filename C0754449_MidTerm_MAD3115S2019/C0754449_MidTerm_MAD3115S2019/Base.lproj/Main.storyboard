@@ -47,6 +47,9 @@
                                 <rect key="frame" x="157" y="544" width="80" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log In"/>
+                                <connections>
+                                    <segue destination="0mh-7F-l0e" kind="show" id="bYQ-gs-8U9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -55,7 +58,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1122" y="74"/>
+            <point key="canvasLocation" x="-1132" y="82"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GP4-Kq-CPG">
@@ -78,6 +81,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="apR-Q1-4Zd"/>
                     </view>
+                    <connections>
+                        <segue destination="Ie9-k0-8GS" kind="show" id="JV3-qm-w3A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GvZ-rm-1Ho" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
