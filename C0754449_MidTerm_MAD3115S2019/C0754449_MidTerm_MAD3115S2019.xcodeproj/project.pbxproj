@@ -24,6 +24,7 @@
 		9BC2F55722D92D49009837DB /* Tom_and_Jerry_PNG_Clipart_Picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2F55622D92D49009837DB /* Tom_and_Jerry_PNG_Clipart_Picture.png */; };
 		9BC2F55922D93244009837DB /* customerlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F55822D93244009837DB /* customerlistViewController.swift */; };
 		9BC2F55D22D938AF009837DB /* main user.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2F55C22D938AF009837DB /* main user.plist */; };
+		9BC2F55F22D93F4F009837DB /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F55E22D93F4F009837DB /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		9BC2F55622D92D49009837DB /* Tom_and_Jerry_PNG_Clipart_Picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tom_and_Jerry_PNG_Clipart_Picture.png; path = ../../../../Downloads/Tom_and_Jerry_PNG_Clipart_Picture.png; sourceTree = "<group>"; };
 		9BC2F55822D93244009837DB /* customerlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customerlistViewController.swift; sourceTree = "<group>"; };
 		9BC2F55C22D938AF009837DB /* main user.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "main user.plist"; sourceTree = "<group>"; };
+		9BC2F55E22D93F4F009837DB /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				9BC2F55422D91DFA009837DB /* billlistTableViewController.swift */,
 				9BC2F55822D93244009837DB /* customerlistViewController.swift */,
 				9BC2F55C22D938AF009837DB /* main user.plist */,
+				9BC2F55E22D93F4F009837DB /* data.swift */,
 			);
 			path = C0754449_MidTerm_MAD3115S2019;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				9BC2F54922D911A3009837DB /* bill.swift in Sources */,
 				9BC2F51A22D90CDF009837DB /* ViewController.swift in Sources */,
 				9BC2F54D22D911B8009837DB /* internet.swift in Sources */,
+				9BC2F55F22D93F4F009837DB /* data.swift in Sources */,
 				9BC2F55522D91DFA009837DB /* billlistTableViewController.swift in Sources */,
 				9BC2F55122D911CD009837DB /* customer.swift in Sources */,
 				9BC2F51822D90CDF009837DB /* AppDelegate.swift in Sources */,
