@@ -20,6 +20,7 @@
 		9BC2F54D22D911B8009837DB /* internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F54C22D911B8009837DB /* internet.swift */; };
 		9BC2F54F22D911C1009837DB /* mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F54E22D911C1009837DB /* mobile.swift */; };
 		9BC2F55122D911CD009837DB /* customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F55022D911CD009837DB /* customer.swift */; };
+		9BC2F55522D91DFA009837DB /* billlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2F55422D91DFA009837DB /* billlistTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		9BC2F54C22D911B8009837DB /* internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internet.swift; sourceTree = "<group>"; };
 		9BC2F54E22D911C1009837DB /* mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile.swift; sourceTree = "<group>"; };
 		9BC2F55022D911CD009837DB /* customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customer.swift; sourceTree = "<group>"; };
+		9BC2F55422D91DFA009837DB /* billlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = billlistTableViewController.swift; path = ../../../billlistTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				9BC2F51E22D90CE0009837DB /* Assets.xcassets */,
 				9BC2F52022D90CE0009837DB /* LaunchScreen.storyboard */,
 				9BC2F52322D90CE0009837DB /* Info.plist */,
+				9BC2F55422D91DFA009837DB /* billlistTableViewController.swift */,
 			);
 			path = C0754449_MidTerm_MAD3115S2019;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				9BC2F54922D911A3009837DB /* bill.swift in Sources */,
 				9BC2F51A22D90CDF009837DB /* ViewController.swift in Sources */,
 				9BC2F54D22D911B8009837DB /* internet.swift in Sources */,
+				9BC2F55522D91DFA009837DB /* billlistTableViewController.swift in Sources */,
 				9BC2F55122D911CD009837DB /* customer.swift in Sources */,
 				9BC2F51822D90CDF009837DB /* AppDelegate.swift in Sources */,
 				9BC2F54F22D911C1009837DB /* mobile.swift in Sources */,
